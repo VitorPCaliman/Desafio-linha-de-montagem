@@ -1,73 +1,43 @@
-# Desafio-NeoGrid
+Para cumprir o desafio proposto o programa deve seguir as seguintes etapas:
+
+Leitura do arquivo de entrada: O programa deve ler o arquivo input.txt que contém as etapas de produção. Cada linha do arquivo representa uma etapa, e o programa deve extrair o título da etapa e sua duração em minutos.
+
+Organização das etapas: Com base nas restrições de horário e sequência das etapas, o programa deve organizar as etapas em linhas de montagem. Cada linha de montagem começa às 9:00 e segue a ordem das etapas até o meio-dia para o período da manhã, depois do almoço até o horário de ginástica laboral.
+
+Cálculo do horário das etapas: O programa precisa calcular os horários de início e fim de cada etapa, levando em consideração a duração das etapas anteriores e as restrições de horário, como o almoço e o horário máximo para iniciar as atividades de ginástica laboral.
+
+Formatação da saída: A saída deve ser formatada com o horário de cada etapa e o título correspondente. As linhas de montagem devem ser numeradas e separadas por linha vazia. A última etapa do dia deve ser a ginástica laboral.
+
+Portanto, o programa precisa ler o arquivo de entrada, organizar as etapas em linhas de montagem de acordo com as restrições de horário e calcular os horários de início e fim de cada etapa. Em seguida, a saída deve ser formatada corretamente com as informações das linhas de montagem e horários das etapas.
 
 
-Desafio:
+Em seguida, o codigo deve ser revisado para cumprir com melhores padrõesd de boas praticas em sua construção, visando a simplicidade, CleanCode, estrutura do projeto e OO, para que o mesmo se torne mais legível, modular e robusto.
 
-Precisamos ajustar nossas linhas de montagem usando as restrições abaixo.
-Há tantas possibilidades, você deve escrever um programa para organizar essa produção.
+--------------------------------------------------------------------*
 
-Restrições:
+Alguns dos desafios encarados durante a construção da aplicação:
 
-- Não utilize utilitários ou frameworks para cálculos de datas (por exemplo, Joda-Time).
-- Utilize o arquivo input.txt como arquivo de dados de entrada do sistema.
-- A produção possui várias linhas de montagem e cada uma possui os períodos da manhã, almoço e tarde.
-- Cada período possui várias etapas do processo de produção. Obviamente, o período de almoço não as possui.
-- O período da manhã começa às 9:00 e deve ser encerrado ao meio-dia, para o almoço.
-- O período da tarde começa às 13:00 e deve ser encerrado a tempo das atividades de ginástica laboral.
-- As atividades de ginástica laboral podem começar no mínimo às 16:00 e no máximo às 17:00.
-- Os títulos das etapas de produção não possuem números.
-- Todos os números nos títulos das etapas de produção representam o tempo da etapa em minutos ou a palavra "maintenance", que representa uma pausa técnica de 5 minutos.
-- Não haverá intervalo entre as etapas do processo.
-- Dependendo de como você escolher resolver esse problema, a saída pode fornecer uma ordem ou combinação diferente das etapas do processo nas linhas de montagem. Isso é aceitável, não há uma ordem necessária para elas e - - as etapas podem ser distribuídas em qualquer linha de montagem.
-- Você não precisa produzir exatamente a saída de exemplo fornecida aqui, mas precisa considerar as restrições!
+Manipulação de datas e horários: Uma das restrições do desafio é não utilizar utilitários ou frameworks para cálculos de datas, como o Joda-Time. Isso significa que a manipulação de datas e horários deve ser feita manualmente, utilizando as classes e métodos disponíveis na linguagem de programação escolhida. Essa manipulação pode ser complexa, especialmente para calcular a duração das etapas e garantir que elas se encaixem dentro dos horários estabelecidos.
 
-Diferentes dados de entrada serão usados para testar seu programa, além do exemplo abaixo, e ele pode produzir N linhas de montagem.
+Organização das etapas: O desafio requer a organização das etapas em linhas de montagem, seguindo a ordem correta e respeitando as restrições de horário. Foi necessário encontrar uma solução eficiente para essa organização, levando em consideração a duração das etapas, os horários de início e fim e as pausas para almoço e ginástica laboral.
 
-Dados de teste (input.txt)
-Corte de chapas de aço 60min
-Austenpera (Tratamento térmico) 30min
-Temperagem sub-zero (Tratamento térmico) 45min
-Montagem do sensor de segurança 60min
-Lavagem das peças 45min
-Calibração do eixo 30min
-Montagem dos rolamentos de aço 45min
-Resfriamento da linha de montagem - maintenance
-Processo de nitretação 45min
-Montagem do subsistema de injeção 60min
-Verificação de conformidade 30min
-Montagem do subsistema de navegação 60min
-Calibração do subsistema do conversor de torque 60min
-Alinhamento da barra estabilizadora esquerda 30min
-Configuração do dispositivo de bloqueio e controle 45min
-Alinhamento da barra estabilizadora direita 30min
-Instalação da vedação 45min
-Aplicação de decalques 30min
-Montagem do subsistema de monitoramento 30min
+Manutenibilidade e legibilidade do código: Um dos requisitos do desafio é não produzir exatamente a saída de exemplo fornecida, permitindo diferentes combinações e ordens das etapas nas linhas de montagem. Isso implica que o código deve ser estruturado de forma modular e flexível, permitindo fácil manutenção e expansão. Além disso, é essencial que o código seja legível, de modo que outras pessoas possam entender e dar continuidade ao desenvolvimento, se necessário.
 
-Exemplo de Saída
-Linha de montagem 1:
-09:00 Corte de chapas de aço 60min
-10:00 Montagem do subsistema de injeção 60min
-11:00 Montagem do subsistema de navegação 60min
-12:00 Almoço
-13:00 Calibração do subsistema do conversor de torque 60min
-14:00 Montagem dos rolamentos de aço 45min
-14:45 Processo de nitretação 45min
-15:30 Configuração do dispositivo de bloqueio e controle 45min
-16:15 Verificação de conformidade 30min
-16:45 Esfriamento da linha de montagem - maintenance
-16:50 Ginástica laboral
+Testes e validação: É fundamental realizar testes e validações adequadas para garantir que o programa funcione corretamente em diferentes cenários. Isso inclui testar diferentes arquivos de entrada, considerando diferentes combinações e durações das etapas, além de verificar se os horários estão sendo calculados corretamente e se a formatação da saída está de acordo com as especificações.
 
-Linha de montagem 2:
-09:00 Montagem do sensor de segurança 60min
-10:00 Temperagem sub-zero (Tratamento térmico) 45min
-10:45 Lavagem das peças 45min
-11:30 Alinhamento da barra estabilizadora direita 30min
-12:00 Almoço
-13:00 Instalação da vedação 45min
-13:45 Alinhamento da barra estabilizadora esquerda 30min
-14:15 Montagem do subsistema de monitoramento 30min
-14:45 Aplicação de decalques 30min
-15:15 Calibração do eixo 30min
-15:45 Austenpera (Tratamento térmico) 30min
-16:15 Ginástica laboral
+--------------------------------------------------------------------*
+Como um adicional, deixo aqui, sujestões de continuidade ao projeto como etapas futuras à este desafio, que agregariam funcionalidades que facilitariam a implementação e execução da aplicação. Aumentando a complexidade do desafio:
+
+Interface de usuário: Desenvolver uma interface gráfica ou uma interface de linha de comando interativa para permitir que os usuários selecionem o arquivo de entrada, visualizem os resultados e interajam com a aplicação de forma mais intuitiva.
+
+Validação avançada dos dados de entrada: Implementar uma validação mais robusta dos dados de entrada para garantir que eles estejam corretos e completos. Verifique se todas as etapas têm duração válida, se não há etapas duplicadas ou faltantes e se os horários estão dentro dos limites estabelecidos.
+
+Gestão de recursos: Integrar a gestão de recursos à aplicação. Considerando as restrições adicionais, como a disponibilidade limitada de certos recursos para a realização das etapas do processo de produção. Levando em conta os recursos necessários para cada etapa e garantindo que eles estejam disponíveis nos momentos adequados.
+
+Persistência de dados: Implementar um sistema de persistência de dados para armazenar os dados de entrada, as configurações e os resultados gerados. Isso permitirá que os usuários salvem e carreguem dados, assim como revisitem os resultados anteriores.
+
+Geração de relatórios: Criar a capacidade de gerar relatórios detalhados das linhas de montagem, incluindo a lista de etapas em cada linha, os horários de início e término de cada etapa e o tempo total de produção. Isso facilitará a análise e o monitoramento da produção.
+
+Integração com calendário: Integrar a aplicação com um calendário externo, como o Google Calendar, para agendar automaticamente os horários de início das etapas de produção. Isso permitirá que os usuários tenham uma visão geral dos horários ocupados e evitem conflitos com outros compromissos.
+
+--------------------------------------------------------------------*
