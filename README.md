@@ -18,7 +18,7 @@ Restrições:
 - Os títulos das etapas de produção não possuem números.
 - Todos os números nos títulos das etapas de produção representam o tempo da etapa em minutos ou a palavra "maintenance", que representa uma pausa técnica de 5 minutos.
 - Não haverá intervalo entre as etapas do processo.
-- Dependendo de como você escolher resolver esse problema, a saída pode fornecer uma ordem ou combinação diferente das etapas do processo nas linhas de montagem. Isso é aceitável, não há uma ordem necessária para elas e - - as etapas podem ser distribuídas em qualquer linha de montagem.
+- Dependendo de como você escolher resolver esse problema, a saída pode fornecer uma ordem ou combinação diferente das etapas do processo nas linhas de montagem. Isso é aceitável, não há uma ordem necessária para elas e as etapas podem ser distribuídas em qualquer linha de montagem.
 - Você não precisa produzir exatamente a saída de exemplo fornecida aqui, mas precisa considerar as restrições!
 
 Diferentes dados de entrada serão usados para testar seu programa, além do exemplo abaixo, e ele pode produzir N linhas de montagem.
