@@ -1,0 +1,38 @@
+Corte de chapas de aço 90min
+Austenpera (Tratamento térmico) 10min
+Temperagem sub-zero (Tratamento térmico) 35min
+Montagem do sensor de segurança 60min
+Lavagem das peças 45min
+Calibração do eixo2 30min
+Montagem dos rolamentos de aço 45min
+Resfriamento da linha de montagem - maintenance
+Processo de nitretação 45min
+Montagem do subsistema de injeção 60min
+Verificação de conformidade 30min
+Montagem do subsistema de navegação 60min
+Calibração do subsistema do conversor de torque 80min
+Alinhamento da barra estabilizadora esquerda 30min
+Configuração do dispositivo de bloqueio e controle 45min
+Alinhamento da barra estabilizadora direita 30min
+Instalação da vedação 45min
+Aplicação de decalques 10min
+Montagem do subsistema de monitoramento 30min
+Corte de chapas de aço 60min
+Austenpera (Tratamento térmico) 30min
+Temperagem sub-zero (Tratamento térmico) 45min
+Montagem do sensor de segurança 60min
+Lavagem das peças 45min
+Calibração do eixo 30min
+Montagem dos rolamentos de aço 45min
+Resfriamento da linha de montagem - maintenance
+Processo de nitretação 45min
+Montagem do subsistema de injeção 30min
+Verificação de conformidade 30min
+Montagem do subsistema de navegação 60min
+Calibração do subsistema do conversor de torque 60min
+Alinhamento da barra estabilizadora esquerda 30min
+Configuração do dispositivo de bloqueio e controle 45min
+Alinhamento da barra estabilizadora direita 30min
+Instalação da vedação 45min
+Aplicação de decalques 30min
+Montagem do subsistema de monitoramento 30min
