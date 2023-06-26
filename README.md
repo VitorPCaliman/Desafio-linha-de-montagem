@@ -26,50 +26,96 @@ Diferentes dados de entrada serão usados para testar seu programa, além do exe
 
 Dados de teste (input.txt):
 
-Corte de chapas de aço 60min;
+Corte de chapas de aço 60min
+
 Austenpera (Tratamento térmico) 30min
+
 Temperagem sub-zero (Tratamento térmico) 45min
+
 Montagem do sensor de segurança 60min
+
 Lavagem das peças 45min
+
 Calibração do eixo 30min
+
 Montagem dos rolamentos de aço 45min
+
 Resfriamento da linha de montagem - maintenance
+
 Processo de nitretação 45min
+
 Montagem do subsistema de injeção 60min
+
 Verificação de conformidade 30min
+
 Montagem do subsistema de navegação 60min
+
 Calibração do subsistema do conversor de torque 60min
+
 Alinhamento da barra estabilizadora esquerda 30min
+
 Configuração do dispositivo de bloqueio e controle 45min
+
 Alinhamento da barra estabilizadora direita 30min
+
 Instalação da vedação 45min
+
 Aplicação de decalques 30min
+
 Montagem do subsistema de monitoramento 30min
 
-Exemplo de Saída
+
+
+Exemplo de Saída:
+
 Linha de montagem 1:
+
 09:00 Corte de chapas de aço 60min
+
 10:00 Montagem do subsistema de injeção 60min
+
 11:00 Montagem do subsistema de navegação 60min
+
 12:00 Almoço
+
 13:00 Calibração do subsistema do conversor de torque 60min
+
 14:00 Montagem dos rolamentos de aço 45min
+
 14:45 Processo de nitretação 45min
+
 15:30 Configuração do dispositivo de bloqueio e controle 45min
+
 16:15 Verificação de conformidade 30min
+
 16:45 Esfriamento da linha de montagem - maintenance
+
 16:50 Ginástica laboral
 
+
+
 Linha de montagem 2:
+
 09:00 Montagem do sensor de segurança 60min
+
 10:00 Temperagem sub-zero (Tratamento térmico) 45min
 10:45 Lavagem das peças 45min
+
 11:30 Alinhamento da barra estabilizadora direita 30min
+
 12:00 Almoço
+
 13:00 Instalação da vedação 45min
+
 13:45 Alinhamento da barra estabilizadora esquerda 30min
+
 14:15 Montagem do subsistema de monitoramento 30min
+
 14:45 Aplicação de decalques 30min
+
 15:15 Calibração do eixo 30min
+
 15:45 Austenpera (Tratamento térmico) 30min
+
 16:15 Ginástica laboral
+
