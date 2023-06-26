@@ -11,7 +11,7 @@ Formatação da saída: A saída deve ser formatada com o horário de cada etapa
 Portanto, o programa precisa ler o arquivo de entrada, organizar as etapas em linhas de montagem de acordo com as restrições de horário e calcular os horários de início e fim de cada etapa. Em seguida, a saída deve ser formatada corretamente com as informações das linhas de montagem e horários das etapas.
 
 
-Em seguida, o codigo deve ser revisado para cumprir com melhores padrõesd de boas praticas em sua construção, visando a simplicidade, CleanCode, estrutura do projeto e OO, para que o mesmo se torne mais legível, modular e robusto.
+Em seguida, o código deve ser revisado para cumprir com melhores padrões de boas práticas em sua construção, visando a simplicidade, CleanCode, estrutura do projeto e OO, para que o mesmo se torne mais legível, modular e robusto.
 
 --------------------------------------------------------------------*
 
@@ -27,7 +27,7 @@ Testes e validação: É fundamental realizar testes e validações adequadas pa
 
 --------------------------------------------------------------------*
 
-Como um adicional, deixo aqui, sujestões de continuidade ao projeto como etapas futuras à este desafio, que agregariam funcionalidades que facilitariam a implementação e execução da aplicação. Aumentando a complexidade do desafio:
+Como um adicional, deixo aqui, sugestões de continuidade ao projeto como etapas futuras à este desafio, que agregariam funcionalidades que facilitariam a implementação e execução da aplicação. Aumentando a complexidade do desafio:
 
 Interface de usuário: Desenvolver uma interface gráfica ou uma interface de linha de comando interativa para permitir que os usuários selecionem o arquivo de entrada, visualizem os resultados e interajam com a aplicação de forma mais intuitiva.
 
