@@ -23,8 +23,10 @@ Restrições:
 
 Diferentes dados de entrada serão usados para testar seu programa, além do exemplo abaixo, e ele pode produzir N linhas de montagem.
 
-Dados de teste (input.txt)
-Corte de chapas de aço 60min
+
+Dados de teste (input.txt):
+
+Corte de chapas de aço 60min;
 Austenpera (Tratamento térmico) 30min
 Temperagem sub-zero (Tratamento térmico) 45min
 Montagem do sensor de segurança 60min
