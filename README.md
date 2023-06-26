@@ -26,6 +26,7 @@ Manutenibilidade e legibilidade do código: Um dos requisitos do desafio é não
 Testes e validação: É fundamental realizar testes e validações adequadas para garantir que o programa funcione corretamente em diferentes cenários. Isso inclui testar diferentes arquivos de entrada, considerando diferentes combinações e durações das etapas, além de verificar se os horários estão sendo calculados corretamente e se a formatação da saída está de acordo com as especificações.
 
 --------------------------------------------------------------------*
+
 Como um adicional, deixo aqui, sujestões de continuidade ao projeto como etapas futuras à este desafio, que agregariam funcionalidades que facilitariam a implementação e execução da aplicação. Aumentando a complexidade do desafio:
 
 Interface de usuário: Desenvolver uma interface gráfica ou uma interface de linha de comando interativa para permitir que os usuários selecionem o arquivo de entrada, visualizem os resultados e interajam com a aplicação de forma mais intuitiva.
